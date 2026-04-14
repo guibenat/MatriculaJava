@@ -11,6 +11,10 @@ public class Aluno {
         this.curso = curso;
     }
 
+    public boolean aprovado (int index) {
+        return notas[index] >= 7.0;
+    }
+
     public String getNome (){return  nome;}
     public void setNome (String nome){this.nome = nome ;}
 
