@@ -24,5 +24,13 @@ public class Aluno {
     public String getCurso () {return curso;}
     public void setCurso (String curso) {this.curso = curso;}
 
+    public void setMateriaNota(int index, String nomeMat, double nota) {
+        this.materia[index] = nomeMat;
+        this.notas[index] = nota;
+    }
+
+    public String getDisciplina(int i) { return materia[i]; }
+    public double getNota(int i) { return notas[i]; }
+
 
 }
