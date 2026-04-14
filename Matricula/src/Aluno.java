@@ -2,6 +2,8 @@ public class Aluno {
     private String nome;
     private int numeroMatricula;
     private String curso;
+    private String[] materia = new String[3];
+    private double[] notas = new double[3];
 
     public Aluno(String nome, int numeroMatricula, String curso){
         this.nome = nome;
